@@ -34,7 +34,7 @@
 
 Name:           java_cup
 Version:        0.11a
-Release:        15%{?dist}
+Release:        16%{?dist}
 Epoch:          1
 Summary:        Java source interpreter
 Group:          Development/Tools
@@ -144,6 +144,9 @@ cp -pr dist/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.11a-16
+- Mass rebuild 2013-12-27
+
 * Thu Nov 07 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1:0.11a-15
 - Use add_maven_depmap instead of deprecated
 - Resolves: rhbz#1027719
